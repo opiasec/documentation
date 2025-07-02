@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.governance": {
+    "message": "governance",
+    "description": "The label for category governance in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.en": {
+    "message": "en",
+    "description": "The label for category en in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.pt": {
+    "message": "pt",
+    "description": "The label for category pt in sidebar docsSidebar"
+  }
+}

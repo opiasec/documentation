@@ -82,11 +82,13 @@ Run our linter and automated tests to make sure your changes haven't broken anyt
 
 <!-- Add linter instructions? -->
 
-<!-- 
 ```bash
 # Run ESLint to check for style issues
 npm run lint
+```
 
+<!-- 
+```bash
 # Run all tests
 npm run test
 ``` 

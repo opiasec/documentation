@@ -17,7 +17,9 @@ Existem muitas maneiras de contribuir, e todas são valiosas. Você pode:
 * **Melhorar a Documentação:** Se você encontrar partes da nossa documentação que estão confusas ou incompletas, por favor, envie um pull request com suas melhorias.
 * **Escrever Código:** Ajude-nos a corrigir bugs ou a implementar novas funcionalidades.
 
-Se você está procurando por onde começar, verifique as issues com as etiquetas [`good first issue`](https://github.com/[SUA_ORG]/[SEU_REPO]/labels/good%20first%20issue) ou [`help wanted`](https://github.com/[SUA_ORG]/[SEU_REPO]/labels/help%20wanted).
+Se você está procurando por onde começar, verifique as issues com as etiquetas 
+* [`good first issue`](https://github.com/opiasec/documentation/labels/good%20first%20issue) 
+* [`help wanted`](https://github.com/opiasec/documentation/labels/help%20wanted).
 
 ## Sua Primeira Contribuição de Código
 
@@ -25,10 +27,10 @@ Pronto para contribuir com código? Aqui está o fluxo de trabalho que nosso pro
 
 ### Passo 1: Encontre ou Crie uma Issue
 
-Antes de começar a escrever código, por favor, verifique a nossa [aba de Issues](https://github.com/[SUA_ORG]/[SEU_REPO]/issues) para ver se já existe uma issue para o que você quer fazer.
+Antes de começar a escrever código, por favor, verifique a nossa [aba de Issues](https://github.com/opiasec/documentation/issues) para ver se já existe uma issue para o que você quer fazer.
 
 * Se uma issue existir, por favor, deixe um comentário dizendo que você gostaria de trabalhar nela. Isso nos ajuda a evitar trabalho duplicado.
-* Se não existir uma issue, por favor, crie uma primeiro para discutir as mudanças propostas com os mantenedores. Para mudanças significativas, por favor, siga nosso [Processo de RFC](docs/governance/rfc-process.md).
+* Se não existir uma issue, por favor, crie uma primeiro para discutir as mudanças propostas com os mantenedores. Para mudanças significativas, por favor, siga nosso [Processo de RFC](rfc-process.md).
 
 ### Passo 2: Faça o Fork do Repositório
 
@@ -38,13 +40,13 @@ Clique no botão "Fork" no canto superior direito da página do repositório par
 
 1.  **Clone o seu fork:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[SEU_USUARIO]/[SEU_REPO].git
+    git clone [https://github.com/](https://github.com/)[SEU_USUARIO]/documentation.git
     cd [SEU_REPO]
     ```
 
 2.  **Adicione o remote `upstream`:** Isso ajudará você a manter seu fork sincronizado com o projeto principal.
     ```bash
-    git remote add upstream [https://github.com/](https://github.com/)[SUA_ORG]/[SEU_REPO].git
+    git remote add upstream [https://github.com/](https://github.com/)opiasec/documentation.git
     ```
 
 3.  **Instale as dependências:** Nós usamos [Yarn/NPM] para gerenciar os pacotes.
@@ -66,7 +68,7 @@ git checkout -b feat/adicionar-lab-xss
 
 # Exemplo para uma correção de bug
 git checkout -b fix/resolver-bug-login
-````
+```
 
 ### Passo 5: Escreva Seu Código
 
@@ -83,10 +85,14 @@ Execute nosso linter e testes automatizados para garantir que suas alterações 
 ```bash
 # Execute o ESLint para verificar problemas de estilo
 npm run lint
+```
 
+<!-- 
+```bash
 # Execute todos os testes
 npm run test
 ```
+-->
 
 ### Passo 7: Faça o Commit das Suas Alterações
 
@@ -145,4 +151,6 @@ Parabéns e muito obrigado pela sua contribuição\!
 
 ## Dúvidas?
 
-Se você tiver qualquer dúvida, sinta-se à vontade para nos contatar em nosso [Link para o Servidor do Discord / GitHub Discussions].
+Se você tiver qualquer dúvida, sinta-se à vontade para nos contatar em nosso:
+  * [Servidor no Discord](https://discord.gg/xAkfKHRz)
+  * [GitHub Discussions](https://github.com/orgs/AppSec-Digital/discussions)

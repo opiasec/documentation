@@ -6,7 +6,7 @@ This document outlines the process for contributing to our platform. Please read
 
 ## Code of Conduct
 
-By participating in this project, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md). Please read it before you start. All contributors are expected to follow it to help us keep this a welcoming and friendly environment.
+By participating in this project, you are expected to uphold our [Code of Conduct](code-of-conduct.md). Please read it before you start. All contributors are expected to follow it to help us keep this a welcoming and friendly environment.
 
 ## How Can I Contribute?
 

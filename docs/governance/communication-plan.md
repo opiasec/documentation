@@ -44,7 +44,7 @@ To maintain organization, each type of communication has its appropriate channel
 
 ## Etiquette and Best Practices
 
-- **Be Respectful:** Aligned with our `CODE_OF_CONDUCT.md`.
+- **Be Respectful:** Aligned with our `code-of-conduct.md`.
 - **Prefer Asynchronous:** Give others time to respond.
 - **Search Before Asking:** Check if your question has already been answered in Issues, Discussions, or the documentation.
 - **Be Clear and Concise:** In Issues, provide all necessary context (steps to reproduce, versions, etc.).

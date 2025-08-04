@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Opiasec Docs',
+  title: 'opiasec Docs',
   tagline: 'delivering security through culture',
   favicon: 'img/favicon.ico',
 
@@ -47,13 +47,6 @@ const config: Config = {
         calendar: 'gregory',
         path: 'pt-BR',
       },
-      // TODO: Translate to spanish
-      // es: {
-      //   label: 'Español',
-      //   direction: 'ltr',
-      //   calendar: 'gregory',
-      //   path: 'es',
-      // } 
     }
   },
 
@@ -63,25 +56,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/AppSec-Digital/documentation/tree/main/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/AppSec-Digital/documentation/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+            'https://github.com/opiasec/documentation/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -94,7 +70,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'opiasec docs',
+      title: 'opiasec',
       logo: {
         alt: 'Opiasec logo',
         src: 'img/opiasec_logo.jpeg',
@@ -106,7 +82,6 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/opiasec',
           label: 'GitHub',
@@ -147,12 +122,8 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/opiasec/documentation',
+              href: 'https://github.com/opiasec',
             },
           ],
         },

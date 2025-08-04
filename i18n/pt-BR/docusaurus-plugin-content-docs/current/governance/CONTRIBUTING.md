@@ -6,7 +6,7 @@ Este documento descreve o processo para contribuir com a nossa plataforma. Por f
 
 ## Código de Conduta
 
-Ao participar deste projeto, você deve seguir o nosso [Código de Conduta](CODE_OF_CONDUCT.md). Por favor, leia-o antes de começar. Espera-se que todos os contribuidores o sigam para nos ajudar a manter este um ambiente acolhedor e amigável.
+Ao participar deste projeto, você deve seguir o nosso [Código de Conduta](code-of-conduct.md). Por favor, leia-o antes de começar. Espera-se que todos os contribuidores o sigam para nos ajudar a manter este um ambiente acolhedor e amigável.
 
 ## Como Eu Posso Contribuir?
 

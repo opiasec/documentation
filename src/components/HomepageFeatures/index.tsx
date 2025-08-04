@@ -4,7 +4,10 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import MountainSvg from '@site/static/img/undraw_docusaurus_mountain.svg';
 import TreeSvg from '@site/static/img/undraw_docusaurus_tree.svg';
-import ReactSvg from '@site/static/img/undraw_docusaurus_react.svg';
+import People from '@site/static/img/undraw_people.svg';
+import OpenSource from '@site/static/img/undraw_open-source.svg';
+
+
 
 type FeatureItem = {
   title: string;
@@ -14,32 +17,20 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: MountainSvg,
+    title: 'Community',
+    Svg: People,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We welcome contributions from everyone, whether you are a developer, designer, security engineer, or just someone who loves open source.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: TreeSvg,
+    title: 'Open Source Projects',
+    Svg: OpenSource,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: ReactSvg,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Here you can find a collection of open source projects documentations that we maintain.
       </>
     ),
   },
@@ -47,7 +38,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--6')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

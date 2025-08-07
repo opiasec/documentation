@@ -1,38 +1,35 @@
-# Documentação Oficial - **OPIASEC**
+# Official Documentation - **opiasec**
 
-Bem-vindo(a) ao repositório oficial da documentação da nossa plataforma de laboratórios de Application Security! Este espaço é dedicado a fornecer guias claros, tutoriais e toda a informação necessária para que você possa aproveitar ao máximo o _appsec labs_.
+Welcome to the official documentation repository for our community! This space is dedicated to providing clear guides, tutorials, roadmaps and all the necessary information so you can make the most of *opiasec*.
 
-## 🚀 Acessando a Documentação
+## 🚀 Accessing the Documentation
 
-Você pode acessar a versão publicada da nossa documentação em [opiasec docs](https://docs.opiasec.com). Este repositório contém todo o código-fonte e o conteúdo usado para construir nosso site de documentação com Docusaurus.
+You can access the published version of our documentation at [opiasec docs](https://docs.opiasec.com). This repository contains all the source code and content used to build our documentation site with Docusaurus.
 
-## 🔗 Links Importantes
+## 🔗 Important Links
 
-Repositório Principal: O código-fonte da plataforma *appsec labs* pode ser encontrado em:
-* appsec labs - platform: ...
-* appsec labs - portal: ...
-> Reportar um Problema na Plataforma: Se encontrou um bug na plataforma (não na documentação), por favor, abra uma issue no repositório principal.
-* Comunidade: Junte-se à nossa comunidade no Discord/Discussions para tirar dúvidas e interagir.
+> Report a Platform Issue: If you found a bug in the platform (not in the documentation), please open an issue in the main repository.
+* Community: Join our community on Discord: https://discord.com/invite/hXdwCW7e87
 
-## ✏️ Como Contribuir
+## ✏️ How to Contribute
 
-Contribuições para a nossa documentação são sempre bem-vindas! Seja corrigindo um erro de digitação, melhorando uma explicação, traduzindo conteúdo ou escrevendo um novo guia, sua ajuda é valiosa.
+Contributions to our documentation are always welcome! Whether fixing a typo, improving an explanation, translating content, or writing a new guide, your help is valuable.
 
-* Leia nosso Guia de Contribuição: Antes de começar, por favor, leia o nosso arquivo CONTRIBUTING.md para entender o processo, os padrões e como configurar o ambiente.
-* Encontre algo para fazer: Dê uma olhada nas nossas issues, especialmente aquelas marcadas como documentation ou good first issue. Faça um fork e crie um Pull Request!
+* Read our Contributing Guide: Before starting, please read our [CONTRIBUTING](https://docs.opiasec.com/docs/governance/CONTRIBUTING) guide to understand the process, standards, and how to set up the environment.
+* Find something to do: Take a look at our issues, especially those marked as documentation or good first issue. Fork and create a Pull Request!
 
-## Rodando o Projeto Localmente
+## Running the Project Locally
 
-Para visualizar suas alterações enquanto edita, você pode rodar o site da documentação localmente.
+To preview your changes while editing, you can run the documentation site locally.
 
-### 1. Clone o repositório
+### 1. Clone the repository
 `$ git clone https://github.com/opiasec/documentation.git`
 `$ cd documentation`
 
-### 2. Instale as dependências
+### 2. Install dependencies
 `$ npm install`
 
-### 3. Inicie o servidor de desenvolvimento
+### 3. Start the development server
 `$ npm start`
 
-Após executar npm start, o site estará disponível em http://localhost:3000. Agradecemos por nos ajudar a construir uma documentação de alta qualidade para a comunidade de AppSec!
+After running npm start, the site will be available at http://localhost:3000. Thank you for helping us build high-quality documentation for the opiasec community!

@@ -16,5 +16,6 @@ We are building a community of security enthusiasts, developers, and professiona
 If you are interested in joining our community, you can find us on:
 - [GitHub](https://github.com/opiasec/)
 - [Discord](https://discord.gg/hXdwCW7e87)
+- [Twitter](https://twitter.com/opiasec)
 
 <DocCardList />

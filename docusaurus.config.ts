@@ -125,6 +125,10 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/opiasec',
             },
+            {
+              label: 'opiasec.com',
+              href: 'https://opiasec.com',
+            }
           ],
         },
       ],

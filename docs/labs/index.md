@@ -25,4 +25,12 @@ The *Labs* project is designed to be modular and extensible, allowing for easy a
 2. **Backend**: A server that plays the role of BFF (Backend for Frontend): handling requests from the frontend, performing business logic, managing user labs sessions, and communicating with the API (Cluster-API) and database.
 3. **REDIS**: A redis instance used as a caching layer to store session data (lab session attempts) and improve performance.
 4. **Postgres**: A database that stores user progress, lab configurations and evaluation results.
+5. **API**: An API (Cluster API) that manages the lifecycle of lab environments, interacting with Kubernetes: including creation, deletion, and status updates.
+6. **MongoDB**: A database used for storing additional data related to labs and exercises, such as configurations and metadata.
+7. **Kubernetes**: The orchestrator that manages the deployment and scaling of lab environments, ensuring they are ephemeral and isolated.
+8. **Init Containers**: Special containers that run before the main application containers in a pod, used for setup tasks, such as loading lab code or configurations.
+9. **Code Server**: A service (container) that provides a web-based code editor for users to write and test their code within the lab environments. It's based on a opensource project. More details about Code Server can be found here: https://github.com/coder/code-server
+10. **Evaluators Jobs**: Jobs that run evaluations on user lab submissions. It allows for automated assessment of user submissions, providing immediate feedback and grading. Examples of evaluators include:
+    - **Static Code Analysis**: Analyzes the user code for security vulnerabilities without executing it.
+    - **Exploitability Analysis**: Evaluates the exploitability of vulnerabilities in the code that the user submitted.
 

@@ -2,8 +2,6 @@ import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import MountainSvg from '@site/static/img/undraw_docusaurus_mountain.svg';
-import TreeSvg from '@site/static/img/undraw_docusaurus_tree.svg';
 import People from '@site/static/img/undraw_people.svg';
 import OpenSource from '@site/static/img/undraw_open-source.svg';
 

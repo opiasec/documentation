@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'RFC Process'
 title: 'RFC (Request for Comments) Process'
+draft: true
 ---
 
 ## What is an RFC?

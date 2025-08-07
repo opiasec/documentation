@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Labs
 
 ## Overview
@@ -33,4 +37,9 @@ The *Labs* project is designed to be modular and extensible, allowing for easy a
 10. **Evaluators Jobs**: Jobs that run evaluations on user lab submissions. It allows for automated assessment of user submissions, providing immediate feedback and grading. Examples of evaluators include:
     - **Static Code Analysis**: Analyzes the user code for security vulnerabilities without executing it.
     - **Exploitability Analysis**: Evaluates the exploitability of vulnerabilities in the code that the user submitted.
+
+## Navigation
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
 
